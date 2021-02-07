@@ -35,7 +35,7 @@ public class Videojuegos {
 	private boolean alquilado = false;
 	
 	/**
-	 * Constructor de la clase sin necesidad de pasar parámetros
+	 * Constructor de la clase
 	 * @param id
 	 * @param titulo
 	 * @param horas
