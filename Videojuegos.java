@@ -8,10 +8,10 @@ import java.util.Objects;
  * Videojuegos es una clase que permite la gestión de videojuegos
  * </p>
  * <p>
- * Nos permite crear videojuegos desde tres posibilidades iniciales:
- * Por defecto, con solo el {@code titulo} y el número de {@code horas}; y 
+ * Nos permite crear videojuegos dando todos los valores menos {@code alquilado}.
+ * Dicho valor lo modificaríamos con un método específico
  * </p>
- * @author Yo
+ * @author Rodrigo
  * @version 0.1.0
  */
 public class Videojuegos {
@@ -23,7 +23,7 @@ public class Videojuegos {
 	private String titulo;
 	
 	/**	Define las horas de juego, por defecto son 10 */
-	private int horas = 10;
+	private int horas;
 	
 	/**	Define el género */
 	private String genero;
