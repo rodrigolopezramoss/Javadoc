@@ -9,7 +9,11 @@ import java.util.Objects;
  * </p>
  * <p>
  * Nos permite crear videojuegos dando todos los valores menos {@code alquilado}.
- * Dicho valor lo modificaríamos con un método específico
+ * Dicho valor lo modificaríamos con dos métodos específicos
+ * </p>
+ * <p>
+ * Podemos cambiar todos los atributos de un videojuego y comparar un videojuego 
+ * con otro usando {@link #comparar(int, int)}.
  * </p>
  * @author Rodrigo
  * @version 0.1.0
@@ -36,11 +40,11 @@ public class Videojuegos {
 	
 	/**
 	 * Constructor de la clase
-	 * @param id
-	 * @param titulo
-	 * @param horas
-	 * @param genero
-	 * @param companya
+	 * @param id inicializa el id del videojuego
+	 * @param titulo inicializa el título
+	 * @param horas establece el número de horas
+	 * @param genero inicializa el género
+	 * @param companya inicializa el nombre de la compañía
 	 */
 	public Videojuegos(String id, String titulo, int horas, String genero, String companya) {
 		this.id = id;
