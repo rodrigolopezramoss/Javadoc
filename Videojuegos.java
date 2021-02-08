@@ -5,7 +5,7 @@ import java.util.Objects;
 
 /**
  * <p>
- * Videojuegos es una clase que permite la gestión de videojuegos
+ * <em>Videojuegos</em> es una clase que permite la gestión de videojuegos
  * </p>
  * <p>
  * Nos permite crear videojuegos dando todos los valores menos {@code alquilado}.
